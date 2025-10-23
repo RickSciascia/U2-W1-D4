@@ -1,0 +1,111 @@
+.mansalva-regular {
+  font-family: "Mansalva", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Mansalva";
+  background-color: #666666;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.postit {
+  width: 300px;
+  height: 200px;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.postit h3 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+}
+.postit p {
+  font-size: large;
+  font-weight: 300;
+}
+#p1 {
+  background-color: #fafbc9;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 251, 201, 1) 70%,
+    rgba(189, 189, 163, 1) 100%
+  );
+  transform: rotate(-4deg);
+}
+#p2 {
+  background-color: #c8f8ca;
+  background: linear-gradient(
+    180deg,
+    rgba(200, 248, 202, 1) 70%,
+    rgba(158, 181, 161, 1) 100%
+  );
+  transform: rotate(3deg);
+}
+#p3 {
+  background-color: #c5c5f0;
+  background: linear-gradient(
+    180deg,
+    rgba(197, 197, 240, 1) 70%,
+    rgba(139, 140, 155, 1) 100%
+  );
+  transform: rotate(-5deg);
+}
+#p4 {
+  background-color: #c8f8ca;
+  background: linear-gradient(
+    180deg,
+    rgba(200, 248, 202, 1) 70%,
+    rgba(158, 181, 161, 1) 100%
+  );
+  transform: rotate(8deg);
+}
+#p5 {
+  background-color: #fafbc9;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 251, 201, 1) 70%,
+    rgba(189, 189, 163, 1) 100%
+  );
+  transform: rotate(-3deg);
+}
+#p6 {
+  background-color: #c5c5f0;
+  background: linear-gradient(
+    180deg,
+    rgba(197, 197, 240, 1) 70%,
+    rgba(139, 140, 155, 1) 100%
+  );
+  transform: rotate(-6deg);
+}
+#p7 {
+  background-color: #fafbc9;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 251, 201, 1) 70%,
+    rgba(189, 189, 163, 1) 100%
+  );
+  transform: rotate(-4deg);
+}
+#p8 {
+  background-color: #c8f8ca;
+  background: linear-gradient(
+    180deg,
+    rgba(200, 248, 202, 1) 70%,
+    rgba(158, 181, 161, 1) 100%
+  );
+  transform: rotate(3deg);
+}
